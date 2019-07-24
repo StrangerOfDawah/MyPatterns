@@ -1,4 +1,6 @@
-package patterns.FactoryMethod;
+package patterns.FactoryMethod.ConctreteTransports;
+
+import patterns.FactoryMethod.Transport;
 
 public class CarTransport implements Transport {
 

@@ -1,5 +1,9 @@
 package patterns.FactoryMethod;
 
+import patterns.FactoryMethod.Dialogs.CarDialog;
+import patterns.FactoryMethod.Dialogs.Dialog;
+import patterns.FactoryMethod.Dialogs.ShipDialog;
+
 import java.util.Scanner;
 
 public class Demo {
@@ -10,8 +14,6 @@ public class Demo {
         int scan = new Scanner(System.in).nextInt();
         recognizeTransport(scan);
         runBusinessLogic();
-
-
     }
 
     static void recognizeTransport(Integer value) {

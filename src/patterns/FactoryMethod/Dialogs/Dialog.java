@@ -1,4 +1,6 @@
-package patterns.FactoryMethod;
+package patterns.FactoryMethod.Dialogs;
+
+import patterns.FactoryMethod.Transport;
 
 public abstract class Dialog {
 
