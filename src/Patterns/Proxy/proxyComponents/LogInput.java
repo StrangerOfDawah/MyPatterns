@@ -1,6 +1,9 @@
-package Patterns.Proxy;
+package Patterns.Proxy.proxyComponents;
 
-public class LogInput implements Helloable{
+import Patterns.Proxy.Helloable;
+import Patterns.Proxy.serviceComponents.Service;
+
+public class LogInput implements Helloable {
     private Service inpService;
 
     public String sayHello(String name) {

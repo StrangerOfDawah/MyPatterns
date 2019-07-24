@@ -1,5 +1,10 @@
 package Patterns.Proxy;
 
+import Patterns.Proxy.proxyComponents.LogInput;
+import Patterns.Proxy.proxyComponents.LogOutput;
+import Patterns.Proxy.proxyComponents.TooLongStringException;
+import Patterns.Proxy.serviceComponents.Service;
+
 public class DemoApp {
     public static void main(String[] args) {
 

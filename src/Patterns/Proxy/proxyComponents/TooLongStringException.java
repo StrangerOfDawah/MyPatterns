@@ -1,4 +1,7 @@
-package Patterns.Proxy;
+package Patterns.Proxy.proxyComponents;
+
+import Patterns.Proxy.Helloable;
+import Patterns.Proxy.serviceComponents.Service;
 
 public class TooLongStringException extends Exception implements Helloable {
     private Service service;

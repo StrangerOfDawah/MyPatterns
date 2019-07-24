@@ -1,4 +1,7 @@
-package Patterns.Proxy;
+package Patterns.Proxy.proxyComponents;
+
+import Patterns.Proxy.Helloable;
+import Patterns.Proxy.serviceComponents.Service;
 
 public class LogOutput implements Helloable {
     private Service outputService;
