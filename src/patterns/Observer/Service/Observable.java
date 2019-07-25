@@ -1,4 +1,6 @@
-package patterns.Observer;
+package patterns.Observer.Service;
+
+import patterns.Observer.Clients.Observer;
 
 public interface Observable {
     void notifyMember();

@@ -1,4 +1,4 @@
-package patterns.Observer;
+package patterns.Observer.Clients;
 
 public interface Observer {
 

@@ -1,5 +1,8 @@
 package patterns.Observer;
 
+import patterns.Observer.Clients.Member;
+import patterns.Observer.Service.TelegramBot;
+
 public class Application {
     public static void main(String[] args) {
         TelegramBot bot = new TelegramBot();

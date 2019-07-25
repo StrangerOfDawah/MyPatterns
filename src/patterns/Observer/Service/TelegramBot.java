@@ -1,4 +1,6 @@
-package patterns.Observer;
+package patterns.Observer.Service;
+import patterns.Observer.Clients.Observer;
+
 import java.util.LinkedList;
 
 
